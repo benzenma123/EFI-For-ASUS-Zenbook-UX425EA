@@ -1,5 +1,5 @@
 ## EFI For ASUS Zenbook UX425EA & UX485EA
-Hello everybody, this is my repo for the EFI Hackintosh for the ASUS Zenbook as i mention at the title. It only work on UX425EA and UX485EA and cannot work on other device, if the EFI not work on your computer that was not UX425EA or UX485EA then it's not my fault
+Hello everybody, this is my repo for the EFI Hackintosh for the ASUS Zenbook as i mention at the title. It only work on UX425EA and UX485EA and cannot work on other device, if the EFI not work on your computer that was not UX425EA or UX485EA then it's not my fault. If you even use this EFI for your Thinkpad and reset your own NVRAM on it then your cooked buddy. It's ain't my fault
 <p align="center">
 <img src="https://github.com/benzenma123/EFI-For-ASUS-Zenbook-UX425EA/blob/main/Screen%20Shot%202025-12-23%20at%202.49.05%20PM.png?raw=true">
 </p>
@@ -33,4 +33,5 @@ cd EFI-For-ASUS-Zenbook-UX425EA
 - Discord: ngvietkieubell1212
 
 ## Boot Arg (Optional)
-Add -v in boot arg under NVRAM to check if there's anything wrong with your system then send it to me
+> -v
+> This boot arg is optional but recommended for checking log if it goes wrong, stuck at some point or kernel panic
