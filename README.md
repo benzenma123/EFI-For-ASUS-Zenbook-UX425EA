@@ -34,4 +34,10 @@ cd EFI-For-ASUS-Zenbook-UX425EA
 
 ## Boot Arg (Optional)
 > -v
-> This boot arg is optional but recommended for checking log if it goes wrong, stuck at some point or kernel panic
+> **Description**: This is the verbose mode when boot so it show you the boot log and you will know exactly where you need to fix
+
+> -allow3d
+> **Description**: This is for 3D Acceleration but since Iris Xe don't have the official support for it but you can put it for fun :3
+
+> npci=0x2000
+> **Description**: Enable 4G decoding 
