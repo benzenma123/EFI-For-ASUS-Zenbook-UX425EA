@@ -6,7 +6,8 @@
 REPO_URL="https://github.com/benzenma123/EFI-For-ASUS-Zenbook-UX425EA"  # Replace with your repo URL
 BRANCH="main"                                      # Branch you want to download
 DEST_DIR="https://github.com/benzenma123/EFI-For-ASUS-Zenbook-UX425EA/releases/download/v0.1.0-beta/EFI.zip"                   # Destination file path
-
+DEST_FOLDER=$(dirname "$DEST_DIR")
+mkdir -p "$DEST_FOLDER"
 # -------------------------------
 # Download the ZIP
 # -------------------------------
