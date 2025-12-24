@@ -22,6 +22,8 @@ Hello everybody, this is my repo for the EFI Hackintosh for the ASUS Zenbook as 
 ```bash/zsh
 git clone https://github.com/benzenma123/EFI-For-ASUS-Zenbook-UX425EA
 cd EFI-For-ASUS-Zenbook-UX425EA
+chmod +x install.sh
+./install.sh
 ```
 ## Supporter 
 - Benzenma123
