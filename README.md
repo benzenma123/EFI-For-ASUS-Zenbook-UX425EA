@@ -4,7 +4,7 @@ Hello everybody, this is my repo for the EFI Hackintosh for the ASUS Zenbook as 
 <img src="https://github.com/benzenma123/EFI-For-ASUS-Zenbook-UX425EA/blob/main/Screen%20Shot%202025-12-23%20at%202.49.05%20PM.png?raw=true">
 </p>
 
-## Working Hardware
+## Working Hardware (Status)
 - CPU: Intel Core i5-1135g7
 - GPU: Not working yet (missing kext & patch)
 - RAM: Receive as 8GB LPDDR4X
@@ -12,9 +12,10 @@ Hello everybody, this is my repo for the EFI Hackintosh for the ASUS Zenbook as 
 - BIOS Ver: 320
 - Keyboard: Working perfectly
 - Trackpad: Not yet
-- USB: 2 thunderbolt with the USB-A is work
+- USB: 2 thunderbolt with the USB-A is working 
 - HDMI: Cannot export to a external screen
 - Keyboard backlight: Somewhat
+- Sound: Work with some tweaks 
 
 
 ## Tutorial to get the EFI
@@ -46,3 +47,6 @@ chmod +x install.sh
 
 ## About Serial Number
 Please use GenSMBIOS to generate a SMBIOS for your ASUS Zenbook as it can cause conflict if you use the SMBIOS that this EFI already had
+
+## Disclaimer
+The graphics still cannot be fix yet, so my recommendation is you can spend some money to buy a used rx 580 with a eGPU dock that connect thru thunderbolt so you can get a best performance for graphics
