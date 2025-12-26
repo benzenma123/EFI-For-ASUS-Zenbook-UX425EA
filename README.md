@@ -42,4 +42,7 @@ chmod +x install.sh
 > **Description**: This is for 3D Acceleration but since Iris Xe don't have the official support for it but you can put it for fun :3
 
 > npci=0x2000
-> **Description**: Enable 4G decoding 
+> **Description**: Enable 4G decoding
+
+## About Serial Number
+Please use GenSMBIOS to generate a SMBIOS for your ASUS Zenbook as it can cause conflict if you use the SMBIOS that this EFI already had
