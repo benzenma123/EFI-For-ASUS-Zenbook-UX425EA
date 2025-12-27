@@ -50,3 +50,10 @@ Please use GenSMBIOS to generate a SMBIOS for your ASUS Zenbook as it can cause 
 
 ## Disclaimer
 The graphics still cannot be fix yet, so my recommendation is you can spend some money to buy a used rx 580 with a eGPU dock that connect thru thunderbolt so you can get a best performance for graphics
+
+## Tested MacOS Version
+- MacOS Catalina (Working out of the box)
+- MacOS Big Sur (Working good but need some tweaks that i already include in the EFI)
+- MacOS Monterey (pretty laggy)
+- MacOS Ventura (super laggy due to lack of GPU Acceleration)
+- MacOS Sierra (Smooth like butter :3)
