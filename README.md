@@ -5,17 +5,18 @@ Hello everybody, this is my repo for the EFI Hackintosh for the ASUS Zenbook as 
 </p>
 
 ## Working Hardware (Status)
-- CPU: Intel Core i5-1135g7
-- GPU: Not working yet (missing kext & patch)
+- CPU: Intel Core i5-1135g7 but detected as Intel Core i7 something
+- GPU: Detected as Iris Xe Graphics but no Acceleration (QE/CI)
 - RAM: Receive as 8GB LPDDR4X
-- WIFI: Intel AX201 work with itlwm.kext & heliport
+- WIFI: Intel AX201 work with AirportItlwm.kext (itlwm.kext too slow)
 - BIOS Ver: 320
 - Keyboard: Working perfectly
-- Trackpad: Not yet
+- Trackpad: Not yet without tweaks
 - USB: 2 thunderbolt with the USB-A is working 
-- HDMI: Cannot export to a external screen
-- Keyboard backlight: Somewhat
-- Sound: Work with some tweaks 
+- HDMI: Cannot export to a external screen execept you disable the built-in screen 
+- Keyboard backlight: Somewhat if boot into Windows or other os first
+- Sound: Work with some tweaks and updating opencore
+- Ethernet: USB Ethernet work but not recommended to use a adapter that was 100mpbs or lower
 
 
 ## Tutorial to get the EFI
@@ -57,3 +58,10 @@ The graphics still cannot be fix yet, so my recommendation is you can spend some
 - MacOS Monterey (pretty laggy)
 - MacOS Ventura (super laggy due to lack of GPU Acceleration)
 - MacOS Sierra (Smooth like butter :3)
+
+## Declarelation (update Sat Dec 27 10:34PM)
+False alarm guys, these are the unusable MacOS version and it won't be able to boot:
+- MacOS Monterey (Took 30min+ to boot and it won't detect disk)
+- MacOS Ventura (Took 45min+ to boot and disk won't detected)
+- MacOS Sonoma (Didn't test yet)
+- MacOS Tahoe (Hell nah, i aint testing it. My computer endure enough already!)
