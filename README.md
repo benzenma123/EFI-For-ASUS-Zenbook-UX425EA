@@ -37,13 +37,13 @@ chmod +x install.sh
 - Discord: ngvietkieubell1212
 
 ## Boot Arg (Optional)
-> -v
+> <kbd>-v</kbd>
 > **Description**: This is the verbose mode when boot so it show you the boot log and you will know exactly where you need to fix
 
-> -allow3d
+> <kbd>-allow3d</kbd>
 > **Description**: This is for 3D Acceleration but since Iris Xe don't have the official support for it but you can put it for fun :3
 
-> npci=0x2000
+> <kbd>npci=0x2000</kbd>
 > **Description**: Enable 4G decoding
 
 ## About Serial Number
