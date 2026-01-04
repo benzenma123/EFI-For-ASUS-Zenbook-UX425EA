@@ -50,7 +50,11 @@ chmod +x install.sh
 Please use GenSMBIOS to generate a SMBIOS for your ASUS Zenbook as it can cause conflict if you use the SMBIOS that this EFI already had
 
 ## Disclaimer
-The graphics still cannot be fix yet, so my recommendation is you can spend some money to buy a used rx 580 with a eGPU dock that connect thru thunderbolt so you can get a best performance for graphics
+Here's some stuff u gotta know:
+- QE/CI is not working
+- CPU draw image by itself so overheating is expected
+- CPU Throttle sometimes is expected too
+- Wi-Fi sometimes not work is as expected because you have to change the AirportItlwm
 
 ## Tested MacOS Version
 - MacOS Catalina (Working out of the box)
