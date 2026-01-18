@@ -69,3 +69,11 @@ False alarm guys, these are the unusable MacOS version and it won't be able to b
 - MacOS Ventura (Took 45min+ to boot and disk won't detected)
 - MacOS Sonoma (Didn't test yet)
 - MacOS Tahoe (Hell nah, i aint testing it. My computer endure enough already!)
+
+## Update Log for macOS Version (update Jan 17 4:33PM)
+I just upload new EFI, check it out. Here's the bootable macOS version (new)
+- MacOS Monterey
+- MacOS Ventura
+- MacOS Sonoma
+- MacOS Tahoe
+All of them where bootable and kinda usable
